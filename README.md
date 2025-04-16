@@ -29,13 +29,13 @@ API para la gestión de libros, integrada con OpenLibrary para verificar ISBN y 
    mvn spring-boot:run
    ```
 
-# Documentación de la API
-| Método | Endpoint       | Descripción                |
-|--------|----------------|----------------------------|
-| GET    | `/books`       | Devuelve todos los libros  |
-| POST   | `/books`       | Agregar un nuevo libro     |
-| GET    | `/books/{id}`  | Devuelve un libro por ID   |
-| DELETE | `/books/{id}`  | Elimina un libro por ID    |
-
+## Documentación de la API
+| Método | Endpoint       | Descripción                         |
+|--------|----------------|-------------------------------------|
+| GET    | `/books`       | Devuelve todos los libros           |
+| POST   | `/books`       | Agregar un nuevo libro              |
+| GET    | `/books/{id}`  | Devuelve un libro por ID            |
+| PUT    | `/books/{id}`  | Actualiza un libro existente por ID |
+| DELETE | `/books/{id}`  | Elimina un libro por ID             |
 ## Licencia
 Este proyecto está bajo la Licencia MIT.
