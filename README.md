@@ -6,6 +6,8 @@ API para la gestión de libros, integrada con OpenLibrary para verificar ISBN y 
 - Listar todos los libros
 - Buscar libros por título
 - Agregar nuevos libros
+- Actualizar libro
+- Eliminar libro
 - Verificar ISBN con OpenLibrary
 
 ## Tecnologías utilizadas
