@@ -11,6 +11,7 @@ API para la gestión de libros, integrada con **Open Library** para verificar IS
 - Verificar ISBN con **Open Library**
 - Obtener y mostrar metadatos adicionales de libros desde **Open Library**
 
+
 ## Tecnologías utilizadas
 - **Java 17**
 - **Spring Boot 2.x**
@@ -63,4 +64,6 @@ Esta API se integra con **Open Library** para verificar y complementar la inform
 [https://openlibrary.org](https://openlibrary.org)
 
 ## Licencia
+
 Este proyecto está bajo la **Licencia MIT**.
+
