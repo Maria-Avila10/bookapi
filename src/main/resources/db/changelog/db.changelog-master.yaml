@@ -1,0 +1,37 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: maria.avila
+      changes:
+        - createTable:
+            tableName: "book"
+            columns:
+              - column:
+                  name: "id"
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: "title"
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: "author"
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: "isbn"
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: "publication_year"
+                  type: INT
+              - column:
+                  name: "url"
+                  type: VARCHAR(500)
