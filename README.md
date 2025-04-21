@@ -55,8 +55,6 @@ API para la gestión de libros, integrada con **Open Library** para verificar IS
 
 ```
 
-El campo `url` apunta al enlace de Open Library correspondiente al libro.
-
 ## Open Library
 Esta API se integra con **Open Library** para verificar y complementar la información de los libros, como ISBN, autores, y metadatos adicionales. Puedes visitar su sitio oficial aquí:
 [https://openlibrary.org](https://openlibrary.org)
