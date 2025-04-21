@@ -50,8 +50,7 @@ API para la gestión de libros, integrada con **Open Library** para verificar IS
    "title": "El Hobbit",
    "author": "J.R.R. Tolkien",
    "isbn": "978-0261102217",
-   "year": 1937,
-   "url": "https://openlibrary.org/books/OL37509862M/The_Hobbit"
+   "publication_year": 1937
 }
 
 ```
